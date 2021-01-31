@@ -11,6 +11,7 @@
 		02DAC85025C6DC2400A4814F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DAC84F25C6DC2400A4814F /* ContentView.swift */; };
 		02DAC85225C6DC2500A4814F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02DAC85125C6DC2500A4814F /* Assets.xcassets */; };
 		02DAC85525C6DC2500A4814F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02DAC85425C6DC2500A4814F /* Preview Assets.xcassets */; };
+		02DAC85F25C6DC7900A4814F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DAC85E25C6DC7900A4814F /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		02DAC85125C6DC2500A4814F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02DAC85425C6DC2500A4814F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02DAC85625C6DC2500A4814F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02DAC85E25C6DC7900A4814F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		02DAC84C25C6DC2400A4814F /* Parallax Carousel */ = {
 			isa = PBXGroup;
 			children = (
+				02DAC85D25C6DC4200A4814F /* View */,
 				02DAC84D25C6DC2400A4814F /* Parallax_CarouselApp.swift */,
 				02DAC84F25C6DC2400A4814F /* ContentView.swift */,
 				02DAC85125C6DC2500A4814F /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				02DAC85425C6DC2500A4814F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02DAC85D25C6DC4200A4814F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02DAC85E25C6DC7900A4814F /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02DAC85025C6DC2400A4814F /* ContentView.swift in Sources */,
+				02DAC85F25C6DC7900A4814F /* Home.swift in Sources */,
 				02DAC84E25C6DC2400A4814F /* Parallax_CarouselApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
